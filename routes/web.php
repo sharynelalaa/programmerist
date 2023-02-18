@@ -34,3 +34,7 @@ Route::get('/aboutus', function () {
 Route::get('/contactus', function () {
     return view('/contactus');
 });
+Route::get('/signup', function () {
+    return view('/signup');
+});
+
