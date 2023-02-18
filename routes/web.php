@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/aboutus', function () {
-    return view('/aboutus');
-});
+
 
 Route::get('/carmodel', function () {
     return view('/carmodel');
@@ -27,4 +25,12 @@ Route::get('/carmodel', function () {
 
 Route::get('/terms', function () {
     return view('/terms');
+});
+
+Route::get('/aboutus', function () {
+    return view('/aboutus');
+});
+
+Route::get('/contactus', function () {
+    return view('/contactus');
 });
