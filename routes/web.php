@@ -24,3 +24,7 @@ Route::get('/aboutus', function () {
 Route::get('/carmodel', function () {
     return view('/carmodel');
 });
+
+Route::get('/terms', function () {
+    return view('/terms');
+});
