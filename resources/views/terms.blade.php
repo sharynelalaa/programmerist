@@ -516,24 +516,21 @@
     
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Rental Car Types</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2">
-                                <a href="#foorear" class="nav-link p-0 ">Luxury Car
-                                    Rental</a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="{{ url('/')}}">Home</a>
                             </li>
-                            <li class="nav-item mb-2">
-                                <a href="#foorear" class="nav-link p-0 ">Pickup Truck
-                                    Rental</a>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="{{ url('/carmodel')}}">Vehicles</a>
                             </li>
-                            <li class="nav-item mb-2">
-                                <a href="#foorear" class="nav-link p-0 ">Van Rental</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/terms')}}">Terms</a>
                             </li>
-                            <li class="nav-item mb-2">
-                                <a href="#foorear" class="nav-link p-0 ">SUV Rental</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/aboutus') }}">About Us</a>
                             </li>
-                            <li class="nav-item mb-2">
-                                <a href="#foorear" class="nav-link p-0 ">Rental Car
-                                    Sizes — Sedans</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/contactus') }}">Contact Us</a>
                             </li>
                         </ul>
                     </div>
