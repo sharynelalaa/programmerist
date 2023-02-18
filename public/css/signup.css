@@ -1,0 +1,61 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* ICON START */
+  .icon {
+    padding: 12px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 13px;
+  }
+
+  .icon .bi-facebook {
+    color: #385999;
+    background: #ffd181;
+  }
+
+  .icon .bi-instagram {
+    color: #e1306c;
+    background: #ffd181;
+  }
+
+  .icon .bi-twitter {
+    color: #46C1F6;
+    background: #ffd181;
+  }
+
+  .icon .bi-youtube {
+    color: red;
+    background: #ffd181;
+  }
+
+  .icon .bi-google {
+    color: #4885ed;
+    background: #ffd181;
+  }
+
+  /* ICON END */
+
+
+
+  #navcolor {
+    background: black;
+  }
+
+  .caret .btn {
+    color: #FF6d00;
+
+  }
+
+  .row {
+    background-color: #FFD181;
+  }
+
+  .btn {
+    background-color: #FF6d00;
+  }
