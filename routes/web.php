@@ -17,10 +17,20 @@ Route::get('/', function () {
     return view('landing');
 });
 
+
+
+Route::get('/carmodel', function () {
+    return view('/carmodel');
+});
+
+Route::get('/terms', function () {
+    return view('/terms');
+});
+
 Route::get('/aboutus', function () {
     return view('/aboutus');
 });
 
-Route::get('/carmodel', function () {
-    return view('/carmodel');
+Route::get('/contactus', function () {
+    return view('/contactus');
 });
