@@ -1,4 +1,4 @@
-{{-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,8 +14,6 @@
         integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="{{ asset('css/terms.css') }}" rel="stylesheet">
-
-   
 </head>
 
 <body>
@@ -34,24 +32,27 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="carmodel.html">Vehicles</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Terms</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutus.html">About
-                                    Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contactus.html">Contact Us</a>
-                            </li>
-                        </ul>
+                    
+
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="{{ url('/')}}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="{{ url('/carmodel')}}">Vehicles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/terms')}}">Terms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/aboutus') }}">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/contactus') }}">Contact Us</a>
+                                </li>
+                            </ul>
+                        
+                        
                         <form class="d-flex mx-auto">
                             <button type="button" class="btn1 btn-outline-warning btn-lg" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
@@ -516,6 +517,8 @@
     
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Rental Car Types</h5>
+
+                 
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="{{ url('/')}}">Home</a>
@@ -575,7 +578,6 @@
                             </div>
     
                         </form>
-    
                     </div>
                     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
                         <p>© 2022 G' Five | Company, Inc. All rights reserved.</p>
@@ -618,4 +620,4 @@
 
 </body>
 
-</html> --}}
+</html>
