@@ -247,13 +247,15 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     bottom: 0;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255);
     background: linear-gradient(
         0deg,
         rgba(255, 255, 255, 0.8099614845938375) 0%,
         rgba(221, 109, 0, 0.5634628851540616) 2%,
         rgba(221, 109, 0, 0.8015581232492998) 100%
-    );
+    ); */
+    background: rgb(9,9,9);
+    background: linear-gradient(180deg, rgba(9,9,9,1) 0%, rgba(226,157,110,1) 50%, rgba(255,109,0,1) 100%);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
