@@ -467,7 +467,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
     }
 
     /**
-     * Register a callback that is responsible for handling missing attribute violations.
+     * Register a callback that is responsible for handling lazy loading violations.
      *
      * @param  callable|null  $callback
      * @return void
@@ -1081,16 +1081,6 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
         }
 
         return true;
-    }
-
-    /**
-     * Save the model and all of its relationships without raising any events to the parent model.
-     *
-     * @return bool
-     */
-    public function pushQuietly()
-    {
-        return static::withoutEvents(fn () => $this->push());
     }
 
     /**
