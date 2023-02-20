@@ -13,31 +13,75 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('landing');
+// });
+
+
+
+// Route::get('/carmodel', function () {
+//     return view('/carmodel');
+// });
+
+// Route::get('/terms', function () {
+//     return view('/terms');
+// });
+
+// Route::get('/aboutus', function () {
+//     return view('/aboutus');
+// });
+
+// Route::get('/contactus', function () {
+//     return view('/contactus');
+// });
+// Route::get('/signup', function () {
+//     return view('/signup');
+// });
 Route::get('/', function () {
-    return view('landing');
+    return view('welcome');
 });
 
+Auth::routes();
 
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/carmodel', function () {
-    return view('/carmodel');
-});
+Auth::routes();
 
-Route::get('/terms', function () {
-    return view('/terms');
-});
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/aboutus', function () {
-    return view('/aboutus');
-});
+Auth::routes();
 
-Route::get('/contactus', function () {
-    return view('/contactus');
-});
-Route::get('/signup', function () {
-    return view('/signup');
-});
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+<<<<<<< HEAD
 Route::get('/payment', function () {
     return view('/payment');
 });
+=======
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+>>>>>>> 149c74ea1b4a01a7880458ccf0d787d7cc38d885
