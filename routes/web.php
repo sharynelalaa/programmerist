@@ -13,45 +13,31 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('landing');
-// });
-
-
-
-// Route::get('/carmodel', function () {
-//     return view('/carmodel');
-// });
-
-// Route::get('/terms', function () {
-//     return view('/terms');
-// });
-
-// Route::get('/aboutus', function () {
-//     return view('/aboutus');
-// });
-
-// Route::get('/contactus', function () {
-//     return view('/contactus');
-// });
-// Route::get('/signup', function () {
-//     return view('/signup');
-// });
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+Route::get('/carmodel', function () {
+    return view('/carmodel');
+});
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/terms', function () {
+    return view('/terms');
+});
 
-Auth::routes();
+Route::get('/aboutus', function () {
+    return view('/aboutus');
+});
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/contactus', function () {
+    return view('/contactus');
+});
+Route::get('/signup', function () {
+    return view('/signup');
+});
+
 
 Route::get('/payment', function () {
     return view('/payment');
