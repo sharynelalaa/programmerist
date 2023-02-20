@@ -21,11 +21,11 @@ class StripeController extends Controller
             'line_items'  => [
                 [
                     'price_data' => [
-                        'currency'     => 'php',
+                        'currency'     => 'usd',
                         'product_data' => [
                             'name' => 'PAY',
                         ],
-                        'unit_amount'  => 5000,
+                        'unit_amount'  => 350,
                     ],
                     'quantity'   => 1,
                 ],
