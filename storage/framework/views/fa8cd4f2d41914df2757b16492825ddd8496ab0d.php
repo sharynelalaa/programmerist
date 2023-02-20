@@ -190,7 +190,9 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>Price</h5>
                     </p>
-                    <form action="/session" method="POST">
+
+
+                    <form action="/anotherSession" method="POST">
                       <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
                       <button type="submit" id="checkout-live-button">BOOK NOW</button>
                     </form>
