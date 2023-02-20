@@ -164,7 +164,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱2,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -179,7 +179,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱10,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -194,7 +194,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱ 3,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -209,7 +209,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱1,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -224,7 +224,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱5,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -239,7 +239,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱2,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -254,7 +254,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱2,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -269,7 +269,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 7SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱5,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -296,7 +296,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: VIOS</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -326,7 +326,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -341,7 +341,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱1,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -356,7 +356,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,900/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -371,7 +371,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱3,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -386,7 +386,7 @@
                       <li>TYPE: MPV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>Pric₱4,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -401,7 +401,7 @@
                       <li>TYPE: MPV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -416,7 +416,7 @@
                       <li>TYPE: VAN</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 2 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱5,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -431,7 +431,7 @@
                       <li>TYPE: VAN</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 10 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱6,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -446,7 +446,7 @@
                       <li>TYPE: PICK-UP</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,200/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -461,7 +461,7 @@
                       <li>TYPE: PICK-UP</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,400/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -488,7 +488,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱7,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -503,7 +503,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱8,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -518,7 +518,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,400/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -533,7 +533,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱3,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -548,7 +548,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,450/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -563,7 +563,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -578,7 +578,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,550/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -593,7 +593,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,600/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
