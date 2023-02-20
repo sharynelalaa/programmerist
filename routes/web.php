@@ -37,8 +37,16 @@ Route::get('/contactus', function () {
 Route::get('/signup', function () {
     return view('/signup');
 });
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+=======
 Route::get('/checkout', function () {
     return view('/checkout');
 });
@@ -60,3 +68,4 @@ Route::get('/anotherSuccess', 'App\Http\Controllers\StripeController@anotherSucc
 
 // Route::get('/another-session', [StripeController::class, 'anotherSession'])->name('anotherSession');
 // Route::get('/another-success', [StripeController::class, 'anotherSuccess'])->name('anotherSuccess');
+
