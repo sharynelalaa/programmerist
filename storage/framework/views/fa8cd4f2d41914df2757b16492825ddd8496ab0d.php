@@ -166,7 +166,9 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>Price</h5>
                     </p>
-                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+                    
+                    <a  href="<?php echo e(url('/payment')); ?> " class="btn btn-primary">Book</a>
+                    
                   </div>
                 </div>
               </div>

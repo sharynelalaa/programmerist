@@ -166,7 +166,9 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>Price</h5>
                     </p>
-                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+                    {{-- <a href="#" class="btn btn-primary">ccccc</a> --}}
+                    <a  href="{{ url('/payment')}} " class="btn btn-primary">Book</a>
+                    
                   </div>
                 </div>
               </div>
