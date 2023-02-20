@@ -149,7 +149,98 @@
             @yield('content')
         </main>  
     
-    
+        <footer class="footer" id="foorear">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Rental Car Types</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="#foorear" class="nav-link p-0 ">Luxury Car
+                                    Rental</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#foorear" class="nav-link p-0 ">Pickup Truck
+                                    Rental</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#foorear" class="nav-link p-0 ">Van Rental</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#foorear" class="nav-link p-0 ">SUV Rental</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#foorear" class="nav-link p-0 ">Rental Car
+                                    Sizes — Sedans</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+
+                    <div class="col-md-5 offset-md-1 mb-3" style="margin-left: 33%;">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>
+                                Monthly digest of what's new and exciting
+                                from us.
+                            </p>
+                                
+                                <br />
+                            <div class="wrapper">
+                                <a class="button" href="#foorear">
+                                    <div class="icon"><i class="fa fa-facebook-f"
+                                            style=" font-size:40px;color:rgb(255, 255, 255)"></i></div>
+                                    <span style="color: #4400ff">Facebook</span>
+                                </a>
+                                <a class="button" href="#foorear">
+                                    <div class="icon"><i class="fa fa-instagram"
+                                            style=" font-size:40px;color:rgb(255, 255, 255)"></i></div>
+                                    <span style="color: #833AB4">Instagram</span>
+                                </a>
+                                <a class="button" href="#foorear">
+                                    <div class="icon"><i class="fa fa-twitter"
+                                            style=" font-size:40px;color:rgb(255, 255, 255)"></i></div>
+                                    <span style="color: #1DA1F2">Twitter</span>
+                                </a>
+                                <a class="button" href="#foorer">
+                                    <div class="icon"><i class="fa fa-youtube-play"
+                                            style=" font-size:34px;color:rgb(255, 255, 255)"></i></div>
+                                    <span style="color: #fc0303">YouTube</span>
+                                </a>
+                                <a class="button" href="#foorear">
+                                    <div class="icon">
+                                        <i class="fa fa-google" style="font-size:40px;color:rgb(255, 255, 255)"></i>
+                                    </div>
+                                    <span style="color: #176af0">Google</span>
+                                </a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                        <p>© 2022 G' Five | Company, Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                        <use xlink:href="#twitter"></use>
+                                    </svg></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                        <use xlink:href="#instagram"></use>
+                                    </svg></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                        <use xlink:href="#facebook"></use>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </footer>
+        </div>
+    </footer>   
 
     
 
