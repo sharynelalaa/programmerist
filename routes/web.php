@@ -58,5 +58,5 @@ Route::get('/checkout1', 'App\Http\Controllers\StripeController@checkout1')->nam
 Route::post('/anotherSession', 'App\Http\Controllers\StripeController@anotherSession')->name('anotherSession');
 Route::get('/anotherSuccess', 'App\Http\Controllers\StripeController@anotherSuccess')->name('anotherSuccess');
 
-// Route::get('/another-session', [StripeController::class, 'anotherSession'])->name('anotherSession');
-// Route::get('/another-success', [StripeController::class, 'anotherSuccess'])->name('anotherSuccess');
+
+Route::get('/booking', 'BookingController@showForm');
