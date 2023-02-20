@@ -53,7 +53,16 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>Price</h5>
                     </p>
-                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+           
+                    {{-- <a  href="{{ url('/checkout')}} " class="btn btn-primary">Book</a> --}}
+
+                    <form action="/session" method="POST">
+                      <input type="hidden" name="_token" value="{{csrf_token()}}">
+                      <button type="submit" id="checkout-live-button">BOOK NOW</button>
+                    </form>
+                  
+                  
+                    
                   </div>
                 </div>
               </div>
@@ -68,7 +77,13 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>Price</h5>
                     </p>
-                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+
+
+                    <form action="/anotherSession" method="POST">
+                      <input type="hidden" name="_token" value="{{csrf_token()}}">
+                      <button type="submit" id="checkout-live-button">BOOK NOW</button>
+                    </form>
+                  
                   </div>
                 </div>
               </div>

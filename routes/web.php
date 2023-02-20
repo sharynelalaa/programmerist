@@ -46,3 +46,26 @@ Route::get('/signup', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+=======
+Route::get('/checkout', function () {
+    return view('/checkout');
+});
+
+
+Route::get('/checkout1', function () {
+    return view('/checkout1');
+});
+
+
+
+Route::get('/checkout', 'App\Http\Controllers\StripeController@checkout')->name('checkout');
+Route::post('/session', 'App\Http\Controllers\StripeController@session')->name('session');
+Route::get('/success', 'App\Http\Controllers\StripeController@success')->name('success');
+
+Route::get('/checkout1', 'App\Http\Controllers\StripeController@checkout1')->name('checkout1');
+Route::post('/anotherSession', 'App\Http\Controllers\StripeController@anotherSession')->name('anotherSession');
+Route::get('/anotherSuccess', 'App\Http\Controllers\StripeController@anotherSuccess')->name('anotherSuccess');
+
+// Route::get('/another-session', [StripeController::class, 'anotherSession'])->name('anotherSession');
+// Route::get('/another-success', [StripeController::class, 'anotherSuccess'])->name('anotherSuccess');
+
