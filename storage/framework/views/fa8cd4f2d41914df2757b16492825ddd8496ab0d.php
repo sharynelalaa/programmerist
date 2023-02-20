@@ -167,7 +167,7 @@
                     <h5>Price</h5>
                     </p>
                     
-                    <a  href="<?php echo e(url('/payment')); ?> " class="btn btn-primary">Book</a>
+                    <a  href="<?php echo e(url('/checkout')); ?> " class="btn btn-primary">Book</a>
                     
                   </div>
                 </div>

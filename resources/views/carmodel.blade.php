@@ -167,7 +167,7 @@
                     <h5>Price</h5>
                     </p>
                     {{-- <a href="#" class="btn btn-primary">ccccc</a> --}}
-                    <a  href="{{ url('/payment')}} " class="btn btn-primary">Book</a>
+                    <a  href="{{ url('/checkout')}} " class="btn btn-primary">Book</a>
                     
                   </div>
                 </div>

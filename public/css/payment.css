@@ -503,3 +503,7 @@ button.btn:hover {
     text-align: center;
     background-color: white;
 }
+
+.payment {
+    margin-top: 500px;
+}
