@@ -7,7 +7,8 @@
     <div class="slider">
         <img src="{{ asset('./images/10.jpg') }}" alt="" id="slideimg" />
     </div>
-    <div class="overlay">        
+    <div class="overlay"> 
+             
         <div class="content2">
             <div>
                 <h1>PLANNING FOR</h1>
@@ -56,7 +57,8 @@
                     setTimeout("slider()", 3000);
                 }
             </script>
-           
+            
+            
 
 
 @endsection
