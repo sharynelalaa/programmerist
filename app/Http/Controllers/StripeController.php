@@ -25,7 +25,7 @@ class StripeController extends Controller
                         'product_data' => [
                             'name' => 'PAY',
                         ],
-                        'unit_amount'  => 3500,
+                        'unit_amount'  => 5000,
                     ],
                     'quantity'   => 1,
                 ],
@@ -48,7 +48,7 @@ class StripeController extends Controller
 
     public function checkout1()
     {
-        return view('checkout');
+        return view('checkout1');
     }
 
 
@@ -63,18 +63,18 @@ class StripeController extends Controller
             'line_items'  => [
                 [
                     'price_data' => [
-                        'currency'     => 'usd',
+                        'currency'     => 'php',
                         'product_data' => [
                             'name' => 'PAY',
                         ],
-                        'unit_amount'  => 1500,
+                        'unit_amount'  => 100000,
                     ],
                     'quantity'   => 1,
                 ],
             ],
             'mode'        => 'payment',
             'success_url' => route('anotherSuccess'),
-            'cancel_url'  => route('checkout'),
+            'cancel_url'  => route('checkout1'),
         ]);
 
         return redirect()->away($session->url);
