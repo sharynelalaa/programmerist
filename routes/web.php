@@ -46,7 +46,7 @@ Route::get('/signup', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-=======
+
 Route::get('/checkout', function () {
     return view('/checkout');
 });
@@ -65,7 +65,3 @@ Route::get('/success', 'App\Http\Controllers\StripeController@success')->name('s
 Route::get('/checkout1', 'App\Http\Controllers\StripeController@checkout1')->name('checkout1');
 Route::post('/anotherSession', 'App\Http\Controllers\StripeController@anotherSession')->name('anotherSession');
 Route::get('/anotherSuccess', 'App\Http\Controllers\StripeController@anotherSuccess')->name('anotherSuccess');
-
-// Route::get('/another-session', [StripeController::class, 'anotherSession'])->name('anotherSession');
-// Route::get('/another-success', [StripeController::class, 'anotherSuccess'])->name('anotherSuccess');
-
