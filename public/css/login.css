@@ -70,8 +70,9 @@
 #btn1:hover {
     font-weight: bold;
 }
-#btn {
-    font-display: none;
+#btn2 {
+    text-decoration: none;
+    color: black;
 }
 
 #header {
