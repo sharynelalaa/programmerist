@@ -65,28 +65,9 @@
                     ></textarea>
                 </div>
                 <div class="col-12" id="submit">
-                    <button type="submit" class="btn btn-dark">Send</button>
+                    <button type="submit" class="btn btn-dark" id="btn">Send</button>
                 </div>
-                <div class="statement2">                    
-                    <div class="row soc-icon">
-                        <div class="col icon facebook">
-                            <div class="tooltip">Facebook</div>
-                            <span><i class="bx bxl-facebook"></i></span>
-                        </div>
-                        <div class="col icon instagram">
-                            <div class="tooltip">Instagram</div>
-                            <span><i class="bx bxl-instagram"></i></span>
-                        </div>
-                        <div class="col icon twitter">
-                            <div class="tooltip">Twitter</div>
-                            <span><i class="bx bxl-twitter"></i></span>
-                        </div>
-                        <div class="col icon google">
-                            <div class="tooltip">Google</div>
-                            <span><i class="bx bxl-google"></i></span>
-                        </div>
-                    </div>
-                </div>
+                
             </form>
         </div>
 
