@@ -3,7 +3,7 @@
 <link href="{{ asset('css/carmodel.css') }}" rel="stylesheet">
 
 @section('content')
-
+<div>
   <!-- TOP -->
   <div class="banner-hero">
     <div class="banner-content-cont">
@@ -51,7 +51,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱2,000/Day</h5>
                     </p>
            
                     {{-- <a  href="{{ url('/checkout')}} " class="btn btn-primary">Book</a> --}}
@@ -75,7 +75,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱10,000/Day</h5>
                     </p>
 
 
@@ -96,7 +96,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱ 3,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -111,7 +111,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱1,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -126,7 +126,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱5,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -141,7 +141,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱2,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -156,7 +156,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱2,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -171,7 +171,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: KIA</li>
                       <li>CAPACITY: 7SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱5,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -198,7 +198,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: VIOS</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -228,7 +228,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -243,7 +243,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱1,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -258,7 +258,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,900/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -273,7 +273,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱3,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -288,7 +288,7 @@
                       <li>TYPE: MPV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>Pric₱4,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -303,7 +303,7 @@
                       <li>TYPE: MPV</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -318,7 +318,7 @@
                       <li>TYPE: VAN</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 2 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱5,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -333,7 +333,7 @@
                       <li>TYPE: VAN</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 10 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱6,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -348,7 +348,7 @@
                       <li>TYPE: PICK-UP</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,200/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -363,7 +363,7 @@
                       <li>TYPE: PICK-UP</li>
                       <li>BRAND: TOYOTA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,400/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -390,7 +390,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱7,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -405,7 +405,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱8,000/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -420,7 +420,7 @@
                       <li>TYPE: SEDAN</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,400/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -435,7 +435,7 @@
                       <li>TYPE: HATCHBACK</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 5 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱3,800/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -450,7 +450,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,450/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -465,7 +465,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,500/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -480,7 +480,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,550/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -495,7 +495,7 @@
                       <li>TYPE: SUV</li>
                       <li>BRAND: HONDA</li>
                       <li>CAPACITY: 7 SEATERS</li>
-                    <h5>Price</h5>
+                    <h5>₱4,600/Day</h5>
                     </p>
                     <a href="#" class="btn btn-primary">BOOK NOW</a>
                   </div>
@@ -511,46 +511,53 @@
     </div>
   </div>
   <!-- 1 -->
-
+  </div>
   
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function(){
-        $("#myCarousel").owlCarousel({
-            items: 3,
-            loop: true,
-            nav: true,
-            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
-        });
-    });
-</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 10,
-      responsiveClass: true,
-      responsive: {
-        0: {
-          items: 1,
-          nav: true
-        },
-        600: {
-          items: 3,
-          nav: false
-        },
-        1000: {
-          items: 5,
-          nav: true,
-          loop: false
-        }
-      }
-    })
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+        integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script>$('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true
+            },
+            600: {
+              items: 3,
+              nav: false
+            },
+            1000: {
+              items: 5,
+              nav: true,
+              loop: false
+            }
+          }
+        })</script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+      <script>
+        window.onscroll = function () {
+          const header = document.getElementById("header");
+          if (window.pageYOffset > 0) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        };
+      </script>
   </script>
   
 
