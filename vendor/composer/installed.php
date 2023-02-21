@@ -1,6 +1,7 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
+<<<<<<< HEAD
 
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
@@ -9,6 +10,11 @@
         
         'reference' => '3e84a2f340fdedd637390213a61bac2a518ede83',
 
+=======
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+>>>>>>> main
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -379,6 +385,7 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
+<<<<<<< HEAD
 
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
@@ -386,6 +393,11 @@
             'reference' => '59fb46168199ab08b7d6f91582c9ac2fea02f353',
             'reference' => '3e84a2f340fdedd637390213a61bac2a518ede83',
 
+=======
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+>>>>>>> main
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -464,9 +476,9 @@
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
-            'pretty_version' => '3.12.2',
-            'version' => '3.12.2.0',
-            'reference' => 'f6377c709d2275ed6feaf63e44be7a7162b0e77f',
+            'pretty_version' => '3.12.3',
+            'version' => '3.12.3.0',
+            'reference' => '81e87e74dd5213795c7846d65089712d2dda90ce',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/flysystem',
             'aliases' => array(),
@@ -641,9 +653,15 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
+<<<<<<< HEAD
             'pretty_version' => '9.6.3',
             'version' => '9.6.3.0',
             'reference' => 'e7b1615e3e887d6c719121c6d4a44b0ab9645555',
+=======
+            'pretty_version' => '10.0.9',
+            'version' => '10.0.9.0',
+            'reference' => 'b027e0e266b2e51bb74d5050ff5b1304c40ea209',
+>>>>>>> main
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -736,8 +754,12 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
+<<<<<<< HEAD
 
                 0 => '1.0.0 || 2.0.0 || 3.0.0',
+=======
+                0 => '3.0.0',
+>>>>>>> main
                 1 => '1.0|2.0|3.0',
             ),
         ),
@@ -977,15 +999,6 @@
             'install_path' => __DIR__ . '/../spatie/laravel-ignition',
             'aliases' => array(),
             'dev_requirement' => true,
-        ),
-        'stripe/stripe-php' => array(
-            'pretty_version' => 'v10.6.0',
-            'version' => '10.6.0.0',
-            'reference' => '5fc46f43c743c715cb5edeb7be3383efb7b4bb2e',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../stripe/stripe-php',
-            'aliases' => array(),
-            'dev_requirement' => false,
         ),
         'symfony/console' => array(
             'pretty_version' => 'v6.2.5',

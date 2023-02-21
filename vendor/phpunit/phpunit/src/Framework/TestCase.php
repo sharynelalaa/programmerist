@@ -1266,10 +1266,12 @@ abstract class TestCase extends Assert implements Reorderable, SelfDescribing, T
                     }
                 }
             }
-        } catch (Throwable $_e) {
-            $e = $e ?? $_e;
-        }
+        } catch (Throwable $exceptionRaisedDuringTearDown) {
+            if (!isset($e)) {
+                $this->status = TestStatus::error($exceptionRaisedDuringTearDown->getMessage());
+                $e            = $exceptionRaisedDuringTearDown;
 
+<<<<<<< HEAD
         try {
             $this->stopOutputBuffering();
         } catch (RiskyTestError $_e) {
@@ -1279,6 +1281,13 @@ abstract class TestCase extends Assert implements Reorderable, SelfDescribing, T
         if (isset($_e)) {
             $this->status        = BaseTestRunner::STATUS_ERROR;
             $this->statusMessage = $_e->getMessage();
+=======
+                $emitter->testErrored(
+                    $this->valueObjectForEvents(),
+                    Event\Code\Throwable::from($exceptionRaisedDuringTearDown)
+                );
+            }
+>>>>>>> main
         }
 
         clearstatcache();

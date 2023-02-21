@@ -2080,17 +2080,17 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.12.2",
-            "version_normalized": "3.12.2.0",
+            "version": "3.12.3",
+            "version_normalized": "3.12.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f6377c709d2275ed6feaf63e44be7a7162b0e77f"
+                "reference": "81e87e74dd5213795c7846d65089712d2dda90ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f6377c709d2275ed6feaf63e44be7a7162b0e77f",
-                "reference": "f6377c709d2275ed6feaf63e44be7a7162b0e77f",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/81e87e74dd5213795c7846d65089712d2dda90ce",
+                "reference": "81e87e74dd5213795c7846d65089712d2dda90ce",
                 "shasum": ""
             },
             "require": {
@@ -2120,7 +2120,7 @@
                 "phpunit/phpunit": "^9.5.11",
                 "sabre/dav": "^4.3.1"
             },
-            "time": "2023-01-19T12:02:19+00:00",
+            "time": "2023-02-18T15:32:41+00:00",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -2154,7 +2154,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.12.2"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.12.3"
             },
             "funding": [
                 {
@@ -3502,6 +3502,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "9.6.3",
             "version_normalized": "9.6.3.0",
             "source": {
@@ -3513,6 +3514,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e7b1615e3e887d6c719121c6d4a44b0ab9645555",
                 "reference": "e7b1615e3e887d6c719121c6d4a44b0ab9645555",
+=======
+            "version": "10.0.9",
+            "version_normalized": "10.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "b027e0e266b2e51bb74d5050ff5b1304c40ea209"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b027e0e266b2e51bb74d5050ff5b1304c40ea209",
+                "reference": "b027e0e266b2e51bb74d5050ff5b1304c40ea209",
+>>>>>>> main
                 "shasum": ""
             },
             "require": {
@@ -3548,7 +3562,11 @@
                 "ext-soap": "*",
                 "ext-xdebug": "*"
             },
+<<<<<<< HEAD
             "time": "2023-02-04T13:37:15+00:00",
+=======
+            "time": "2023-02-19T07:11:46+00:00",
+>>>>>>> main
             "bin": [
                 "phpunit"
             ],
@@ -3587,7 +3605,11 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.3"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.0.9"
+>>>>>>> main
             },
             "funding": [
                 {
@@ -5621,70 +5643,6 @@
                 }
             ],
             "install-path": "../spatie/laravel-ignition"
-        },
-        {
-            "name": "stripe/stripe-php",
-            "version": "v10.6.0",
-            "version_normalized": "10.6.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "5fc46f43c743c715cb5edeb7be3383efb7b4bb2e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/5fc46f43c743c715cb5edeb7be3383efb7b4bb2e",
-                "reference": "5fc46f43c743c715cb5edeb7be3383efb7b4bb2e",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "3.5.0",
-                "php-coveralls/php-coveralls": "^2.5",
-                "phpstan/phpstan": "^1.2",
-                "phpunit/phpunit": "^5.7 || ^9.0",
-                "squizlabs/php_codesniffer": "^3.3"
-            },
-            "time": "2023-02-16T23:01:54+00:00",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Stripe\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Stripe and contributors",
-                    "homepage": "https://github.com/stripe/stripe-php/contributors"
-                }
-            ],
-            "description": "Stripe PHP Library",
-            "homepage": "https://stripe.com/",
-            "keywords": [
-                "api",
-                "payment processing",
-                "stripe"
-            ],
-            "support": {
-                "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v10.6.0"
-            },
-            "install-path": "../stripe/stripe-php"
         },
         {
             "name": "symfony/console",

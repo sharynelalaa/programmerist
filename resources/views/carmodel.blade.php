@@ -53,7 +53,11 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>₱2,000/Day</h5>
                     </p>
-                    <a href="#" class="btn btn-primary">BOOK NOW</a>
+                    <form action="/session" method="POST">
+                      <input type="hidden" name="_token" value="{{csrf_token()}}">
+                      <button type="submit" id="checkout-live-button">BOOK NOW</button>
+                    </form>
+                    
                   </div>
                 </div>
               </div>
