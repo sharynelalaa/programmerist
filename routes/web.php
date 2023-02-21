@@ -37,4 +37,12 @@ Route::get('/contactus', function () {
 Route::get('/signup', function () {
     return view('/signup');
 });
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+
 <link href="{{ asset('css/landing.css') }}" rel="stylesheet">
 
 @section('content')
@@ -7,7 +8,8 @@
     <div class="slider">
         <img src="{{ asset('./images/10.jpg') }}" alt="" id="slideimg" />
     </div>
-    <div class="overlay">        
+    <div class="overlay"> 
+             
         <div class="content2">
             <div>
                 <h1>PLANNING FOR</h1>
@@ -29,11 +31,9 @@
                     >
                         OUR VEHICLES
                     </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
+
 <script>
                 var slideimg = document.getElementById("slideimg");
                 var images = new Array(
@@ -56,7 +56,9 @@
                     setTimeout("slider()", 3000);
                 }
             </script>
-           
+            
+            
 
 
 @endsection
+
