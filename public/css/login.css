@@ -54,6 +54,25 @@
     font-weight: bold;
     background-color: #dd6d00;
 }
+#btn1 {
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ffd181;    
+    background: #dd6d00;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#btn1:hover {
+    font-weight: bold;
+}
+#btn {
+    font-display: none;
+}
 
 #header {
     position: fixed;
