@@ -3,7 +3,7 @@
 <link href="{{ asset('css/carmodel.css') }}" rel="stylesheet">
 
 @section('content')
-
+<div>
   <!-- TOP -->
   <div class="banner-hero">
     <div class="banner-content-cont">
@@ -511,7 +511,7 @@
     </div>
   </div>
   <!-- 1 -->
-
+  </div>
   
 
 
