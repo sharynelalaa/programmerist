@@ -22,13 +22,13 @@
                     >
                         RENT NOW
                     </button>
-                    <button
+                    <!-- <button
                         type="button"
                         class="btn-2"
                         href="{{ url('/carmodel') }}"
                     >
                         OUR VEHICLES
-                    </button>
+                    </button> -->
                 </div>
             </div>
         </div>
