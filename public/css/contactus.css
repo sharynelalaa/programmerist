@@ -17,12 +17,15 @@ body {
 .nav-item .nav-link {
     color: white;
     font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 4px;
 }
 
 .nav-item a:hover {
-    background-color: #ff6d00;
+    background: #ff6d00;
     border-radius: 5px;
     transition: 0s;
+    color: white;
 }
 
 .navbar-toggler-icon {
@@ -37,29 +40,40 @@ body {
     border-color: transparent;
 }
 
-button {
-    width: 140px;
+#button {
+    width: 170px;
     padding: 10px;
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
-    border: 1px solid #ffd181;
+    border: 1px solid #ffd181;    
     background: transparent;
-}
-
-.btn {
-    background-color: #ff6d00;
-}
-
-.btn1 {
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
+    letter-spacing: 3px;
 }
 
-.btn1:hover {
-    font-weight: normal;
+#button:hover {
+    font-weight: bold;
     background-color: #dd6d00;
+}
+#btn {
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ffd181;    
+    background: #dd6d00;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#btn:hover {
+    font-weight: bold;
+    
 }
 
 #header {
@@ -69,91 +83,17 @@ button {
     right: 0;
     z-index: 100000;
 }
+#header.sticky {
+    background: black;
+}
 
+@media only screen and (max-width: 991px) {
+    #header {
+        background: black;
+    }
+}
 /* NAVBAR END */
 
-/* MODAL START */
-.modal-backdrop {
-    opacity: 0.5 !important;
-}
-
-.modal-body button {
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #dd6d00;
-    border-color: black;
-}
-
-.modal-body button:hover {
-    font-weight: normal;
-    border-color: gray;
-    background-color: rgb(70, 70, 70);
-}
-
-.modal-header h1,
-.modal-body a,
-.modal-footer a {
-    color: black;
-}
-
-.modal-header,
-.modal-body,
-.modal-footer {
-    background: #ffd181;
-}
-
-.modal .icon {
-    padding: 12px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px 20px;
-}
-
-.modal .icon .bi-facebook {
-    color: #385999;
-    background: #ffd181;
-}
-
-.modal .icon .bi-instagram {
-    color: #e1306c;
-    background: #ffd181;
-}
-
-.modal .icon .bi-twitter {
-    color: #46c1f6;
-    background: #ffd181;
-}
-
-.modal .icon .bi-google {
-    color: #4885ed;
-    background: #ffd181;
-}
-
-.modal .icon .tooltip {
-    position: absolute;
-    top: 0px;
-    background: white;
-    color: white;
-    font-size: 20px;
-    padding: 10px 18px;
-    border-radius: 25px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.1s;
-}
-
-.modal .icon:hover .tooltip {
-    top: 370px;
-    opacity: 1;
-    pointer-events: auto;
-}
-
-/* MODAL END */
 
 /* BODY START */
 .contact {
@@ -209,8 +149,10 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     bottom: 0;
-    background: rgb(255, 255, 255);
-    background: #ff6d00;
+    /* background: rgb(255, 255, 255);
+    background: #ff6d00; */
+    background: rgb(9,9,9);
+    background: linear-gradient(180deg, rgba(9,9,9,1) 0%, rgba(226,157,110,1) 50%, rgba(255,109,0,1) 100%); 
     color: #f1f1f1;
     width: 100%;
     padding: 20px;

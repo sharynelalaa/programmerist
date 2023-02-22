@@ -4,6 +4,10 @@
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 
 /* NAVBAR START */
 .navbar-nav {
@@ -21,6 +25,7 @@
     background: #ff6d00;
     border-radius: 5px;
     transition: 0s;
+    color: white;
 }
 
 .navbar-toggler-icon {
@@ -35,28 +40,21 @@
     border-color: transparent;
 }
 
-button {
+#button {
     width: 170px;
     padding: 10px;
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
-    border: 1px solid #ffd181;
+    border: 1px solid #ffd181;    
     background: transparent;
-}
-
-.btn {
-    background-color: #ff6d00;
-}
-
-.btn1 {
     color: white;
     font-weight: normal;
     font-size: 20px;
     letter-spacing: 3px;
 }
 
-.btn1:hover {
+#button:hover {
     font-weight: bold;
     background-color: #dd6d00;
 }
@@ -81,100 +79,7 @@ button {
 
 /* NAVBAR END */
 
-/* MODAL START */
-.modal-backdrop {
-    opacity: 0.5 !important;
-}
 
-.modal-body button {
-    color: white;
-    font-weight: normal;
-    font-size: 20px;
-    background-color: #dd6d00;
-    border-color: black;
-    letter-spacing: 2px;
-}
-
-.modal-body button:hover {
-    font-weight: bold;
-    border-color: gray;
-    background-color: rgb(70, 70, 70);
-}
-
-.modal-header h1,
-.modal-body a,
-.modal-footer a {
-    color: black;
-}
-
-.modal-header,
-.modal-body,
-.modal-footer {
-    background: #ffd181;
-}
-
-.modal .button {
-    display: inline-flex;
-    text-decoration: none;
-    gap: 25px;
-    height: 50px;
-    width: 50px;
-    margin-top: 30px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-        36deg,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 209, 129, 0.819765406162465) 58%
-    );
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-out;
-}
-
-.modal .button:hover {
-    width: 200px;
-    background-color: #ffffff;
-}
-
-.modal .icon {
-    padding: 12px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px 13px;
-}
-.modal .icon .bi-facebook {
-    color: #385999;
-    background: #ffd181;
-}
-
-.modal .icon .bi-instagram {
-    color: #e1306c;
-    background: #ffd181;
-}
-
-.modal .icon .bi-twitter {
-    color: #46c1f6;
-    background: #ffd181;
-}
-
-.modal .icon .bi-youtube {
-    color: red;
-    background: #ffd181;
-}
-
-.modal .icon .bi-google {
-    color: #4885ed;
-    background: #ffd181;
-}
-
-/* MODAL END */
 
 .banner {
     width: 100%;
@@ -221,7 +126,8 @@ button {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     position: absolute;
-    top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .content2 {
@@ -282,10 +188,28 @@ span {
     padding: 0px;
     border-radius: 12px;
     letter-spacing: 3px;
+    width: 170px;
+    border: 1px solid #ffd181;
+    
+        
+        /* padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 1px solid #ffd181;    
+        background: transparent;
+        
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 3px; */
+
 }
 
 .btn-1 {
     background-color: #ff6d00;
+}
+.btn-2 {
+    background: transparent;
 }
 
 .footer {
@@ -296,8 +220,12 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     bottom: 0;
-    background: rgb(255, 255, 255);
-    background: #ff6d00;
+    
+    /* background: rgb(255, 255, 255); */
+    /* background: #ff6d00; */
+    background: rgb(9,9,9);
+    background: linear-gradient(180deg, rgba(9,9,9,1) 0%, rgba(226,157,110,1) 50%, rgba(255,109,0,1) 100%);
+
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -378,7 +306,7 @@ span {
     background: linear-gradient(
         36deg,
         rgba(255, 255, 255, 1) 0%,
-        rgba(255, 209, 129, 0.819765406162465) 58%
+        rgb(234 149 0) 58%  
     );
     border-radius: 50px;
     cursor: pointer;

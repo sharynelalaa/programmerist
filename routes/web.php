@@ -37,26 +37,17 @@ Route::get('/contactus', function () {
 Route::get('/signup', function () {
     return view('/signup');
 });
-
-
-Route::get('/checkout', function () {
-    return view('/checkout');
-});
-
-
-Route::get('/checkout1', function () {
-    return view('/checkout1');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 
-Route::get('/checkout', 'App\Http\Controllers\StripeController@checkout')->name('checkout');
-Route::post('/session', 'App\Http\Controllers\StripeController@session')->name('session');
-Route::get('/success', 'App\Http\Controllers\StripeController@success')->name('success');
+Auth::routes();
 
-Route::get('/checkout1', 'App\Http\Controllers\StripeController@checkout1')->name('checkout1');
-Route::post('/anotherSession', 'App\Http\Controllers\StripeController@anotherSession')->name('anotherSession');
-Route::get('/anotherSuccess', 'App\Http\Controllers\StripeController@anotherSuccess')->name('anotherSuccess');
 
 
 Route::get('/booking', 'BookingController@showForm');
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
