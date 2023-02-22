@@ -306,7 +306,7 @@ span {
     background: linear-gradient(
         36deg,
         rgba(255, 255, 255, 1) 0%,
-        rgba(255, 209, 129, 0.819765406162465) 58%
+        rgb(234 149 0) 58%  
     );
     border-radius: 50px;
     cursor: pointer;
