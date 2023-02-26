@@ -53,16 +53,21 @@
                       <li>CAPACITY: 5 SEATERS</li>
                     <h5>₱2,000/Day</h5>
                     </p>
-           
-                    {{-- <a  href="{{ url('/checkout')}} " class="btn btn-primary">Book</a> --}}
 
-                    <form action="/session" method="POST">
+                    <!-- {{-- <a  href="{{ url('/checkout')}} " class="btn btn-primary">Book</a> --}}
+
+                    <form action="/anotherSession" method="POST">
                       <input type="hidden" name="_token" value="{{csrf_token()}}">
                       <button type="submit" id="checkout-live-button">BOOK NOW</button>
-                    </form>
-                  
-                  
-                    
+                    </form> -->
+
+                    {{-- Revised Version --}}
+                    <a href="{{ url('/anotherSession') }}" method="POST" 
+                      class="btn btn-primary" name="_token" value="{{ csrf_token() }}" 
+                      type="submit" id="checkout-live-button">BOOK NOW
+                    </a>
+
+
                   </div>
                 </div>
               </div>
@@ -78,12 +83,14 @@
                     <h5>₱10,000/Day</h5>
                     </p>
 
+                    {{-- Revised Version --}}
+                    <a href="{{ url('/anotherSession') }}" method="POST" 
+                      class="btn btn-primary" name="_token" value="{{ csrf_token() }}" 
+                      type="submit" id="checkout-live-button">BOOK NOW
+                    </a>
 
-                    <form action="/anotherSession" method="POST">
-                      <input type="hidden" name="_token" value="{{csrf_token()}}">
-                      <button type="submit" id="checkout-live-button">BOOK NOW</button>
-                    </form>
-                  
+                    
+
                   </div>
                 </div>
               </div>
@@ -511,54 +518,50 @@
     </div>
   </div>
   <!-- 1 -->
-  </div>
-  
+</div>
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
-        integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-      <script>$('.owl-carousel').owlCarousel({
-          loop: true,
-          margin: 10,
-          responsiveClass: true,
-          responsive: {
-            0: {
-              items: 1,
-              nav: true
-            },
-            600: {
-              items: 3,
-              nav: false
-            },
-            1000: {
-              items: 5,
-              nav: true,
-              loop: false
-            }
-          }
-        })</script>
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-      <script>
-        window.onscroll = function () {
-          const header = document.getElementById("header");
-          if (window.pageYOffset > 0) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        };
-      </script>
-  </script>
-  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 3,
+        nav: false
+      },
+      1000: {
+        items: 5,
+        nav: true,
+        loop: false
+      }
+    }
+  })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script>
+  window.onscroll = function() {
+    const header = document.getElementById("header");
+    if (window.pageYOffset > 0) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  };
+</script>
+</script>
+
 
 @endsection

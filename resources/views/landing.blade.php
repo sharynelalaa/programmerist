@@ -15,6 +15,7 @@
                 <p>Drive your dream car with affordable rates!</p>
 
                 <div class="rentnow">
+
                     <button>
                     <a class="nav-link" id="button1" href="{{ route('login') }}"
                             >{{ __('RENT NOW') }}</a
@@ -27,6 +28,7 @@
                             href="{{ url('/carmodel')}}"
                             >VEHICLES</a
                         >
+
                     </button> -->
                 </div>
             </div>
