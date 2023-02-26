@@ -17,20 +17,19 @@
                 <p>Drive your dream car with affordable rates!</p>
 
                 <div class="rentnow">
-                    <button
-                        type="button"
-                        class="btn-1"
-                        href="{{ url('/signup') }}"
-                    >
-                        RENT NOW
+                <button>
+                    <a class="nav-link" id="button1" href="{{ route('login') }}"
+                            >{{ __('RENT NOW') }}</a
+                        >
                     </button>
-                    <button
+                    <!-- <button
                         type="button"
                         class="btn-2"
-                        href="{{ url('/carmodel') }}"
+                        href="{{ url('/carmodel')}}"
                     >
                         OUR VEHICLES
-                    </button>
+                    </button> -->
+            </div>
 
 
 
